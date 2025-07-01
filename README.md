@@ -67,7 +67,7 @@ const [isAuth, toggleIsAuth] = useState(false);
 
 Als je niet zo goed weet waar je moet beginnen, kun je onderstaand stappenplan volgen:
 
-1. Maak een context-bestand (`AuthContext.js`) met daarin (je raadt het niet!) een `AuthContext`.
+1. Maak een context-bestand (`AuthContext.jsx`) met daarin (je raadt het niet!) een `AuthContext`.
 2. Creer dan het custom Provider-component. Uit dit component return je het echte `AuthContext.Provider` component.
 3. Zorg ervoor dat we het custom Provider-component zometeen om de applicatie kunnen wikkelen door de children property
    te implementeren.
