@@ -41,7 +41,7 @@ De applicatie heeft op dit moment al vier pagina's met werkende routing:
 
 Je gaat de volgende concepten implementeren:
 
-* Je implementeert React Context doormiddel van een custom Provider component (`AuthContext.js`);
+* Je implementeert React Context doormiddel van een custom Provider component (`AuthContext.jsx`);
 * Je hebt nog geen echte invoervelden nodig voor het inloggen. Het in- en uitlog-proces is niets meer dan een simpele
   state-toggle die wordt beheerd in de context:
 
